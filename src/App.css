@@ -1,38 +1,295 @@
-.App {
-  text-align: center;
+.mid{
+  display: flex;
+  align-items: center;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.my{
+  display: flex;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.marg{
+  padding-left: 30px !important;
+  display: flex;
 }
+.d{
+  display: flex ;
+  
+}
+.d1{
+  
+  border: 1px solid red;
+  display: block;
+}
+.d2{
+  border: 1px solid green;
+  margin-left: 10px;
+}
+.car{
+  height: 10px;
+  display: block;
+  padding-left: 2px;
+}
+.h{
+  font-weight: 800;
+  padding-left: 70px;
+  font-size: 75px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.auth{
+  color: blue;
+}
+.para{
+  padding-left: 80px;
+  font-size: x-large;
+}
+.para1{
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-left: 80px;
+  font-size: x-large;
+}
+.txt{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.bt1{
+  margin-left: 80px;
+  padding: 0px;
+  border-radius: 70px;
+  margin-top: 30px;
+  height: 60px;
+  width: 160px;
+}
+.over{
+  position: relative;
+  margin-left: 50px !important;
+}
+.img1{
+  position: absolute;
+  z-index: 5;
+  padding-right: 120px;
+  
+ 
+}
+.img2{
+  position: relative;
+  z-index: 6;
+  right: 70px;
+  top:50px;
+  
+  
+ 
+  
+}
+.t5{
+  font-size: x-large;
+  font-weight: lighter;
+}
+.t4{
+  font-weight: lighter;
+  font-size:large;
+}
+.t2{
+  font-weight: lighter;
+  font-size:x-large;
+}
+.t6{
+  font-weight: 700;
+  font-size: 50px;
+}
+.img3{
+  position: absolute;
+  z-index: 7;
+  top: 480px;
+  left: 150px;
+}
+.title{
+  float: right;
+  /* font-size:px; */
 }
 
-.App-link {
-  color: #61dafb;
+.sec{
+  background-color: #1e5ada0a;
+  height: 600px;
+  width: 90%;
+  margin-left: 80px;
+  margin-top: 300px;
+  border-radius: 30px;
+  display: flex;
+ 
+}
+.phn{
+  margin-top: 90px;
+  margin-left: 80px;
+  height: 450px;
+}
+/* .cards{
+  display: flex;
+  margin-top: 80px;
+  flex-direction:row;
+ 
+
+}*/
+.card{
+  border-radius: 10px;
+  height: 100px;
+  width: 350px;
+  box-shadow: 3px 3px 3px 0.1px black;
+} 
+.car{
+  float: inline-end;
+}
+.c{
+  display: flex;
+  margin-left: 26px;
+}
+.t{
+  font-weight: 500;
+  font-size:70px;
+}
+.bg{
+  background-color:#1e5ada0a;
+  width: 300px;
+  height: 400px;
+  overflow-wrap: inherit;
+}
+.hello{
+  display: flex;
+}
+.b{
+  height: 300px;
+  width: 300px;
+}
+.c1{
+  width: 350px;
+  height: 300px;
+  margin-left: 150px;
+}
+.i{
+  margin-left: 70px;
+}
+.i1{
+  margin-left: 120px;
+}
+.g{
+  display: flex;
+}
+.c2{
+  width: 400px;
+  height: 300px;
+  margin-left: 120px;
+
+}
+.c3{
+  width: 450px;
+  height: 300px;
+  margin-left: 30px;
+}.i2{
+  margin-left: 160px;
+}
+.c4{
+  width: 400px;
+  height: 300px;
+  margin-left: 360px;
+  margin-top: 80px;
+}
+.i4{
+  margin-left: 130px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.c5{
+  width: 400px;
+  height: 300px;
+  margin-left: 150px;
+  margin-top: 50px;
+
+}
+.i5{
+  margin-left: 90px;
+}
+.pix{
+  display: flex;
+  margin-left: 150px !important;
+  background-color:#1e5ada0a;
+  border-radius: 40px;
+  height: 900px;
+  width: 80vw;
+}
+.inner{
+  margin-left: 170px;
+  width: 550px;
+  margin-top: 80px;
+}
+.ste{
+  color:blue;
+}
+.fle{
+  display: flex;
+}
+.ip{
+ margin-left: 0px;
+ height: 750px;
+ 
+ margin-top: 80px;
+}
+.ft{
+  background-color: #112859;
+  padding: 0px !important;
+  margin: 0px;
+}
+.ft1{
+  margin-left: 0px;
+}
+.me{
+  margin-left: 120px !important;
+  padding-left: 0px !important;
+}
+.mc{
+  margin-left: 0px;
+  padding-left: 0px;
+}
+a{
+  text-decoration: none;
+}
+li{
+  margin-top: 20px;
+  font-size: 12px;
+  font-size: large;
+ 
+}
+.tt{
+  font-weight: bolder;
+}
+.lorem{
+  font-size: 15px;
+  font-weight: 100;
+  margin-left: 0px;
+
+}
+.int{
+  width:400px;
+  border: 1px solid white;
+  height: 50px;
+  border-radius: 5px;
+  margin-left: 500px;
+}
+.nv{
+  font-weight: normal;
+  font-size: 20px;
+}
+.bit{
+  border-radius: 20px;
+  width: 90px;
+  height: 40px;
+}
+.bit1{
+  border-radius: 20px;
+  width: 90px;
+  border: 1px solid blue;
+  color:blue;
+  height: 40px;
 }
